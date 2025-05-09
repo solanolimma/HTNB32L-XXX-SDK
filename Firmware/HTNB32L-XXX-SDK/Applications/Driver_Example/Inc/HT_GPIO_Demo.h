@@ -75,18 +75,18 @@ ________________________________________________________________________________
 
 //GPIO10 - BUTTON
 #define BUTTON_INSTANCE          0                  /**</ Button pin instance. */
-#define BUTTON_PIN               10                 /**</ Button pin number. */
-#define BUTTON_PAD_ID            25                 /**</ Button Pad ID. */
+#define BUTTON_PIN               2                /**</ Button pin number. */
+#define BUTTON_PAD_ID            13                 /**</ Button Pad ID. */
 #define BUTTON_PAD_ALT_FUNC      PAD_MuxAlt0        /**</ Button pin alternate function. */
 
 //GPIO3 - LED
 #define LED_INSTANCE             0                  /**</ LED pin instance. */
-#define LED_GPIO_PIN             3                  /**</ LED pin number. */
-#define LED_PAD_ID               14                 /**</ LED Pad ID. */
+#define LED_GPIO_PIN             5                  /**</ LED pin number. */
+#define LED_PAD_ID               16                 /**</ LED Pad ID. */
 #define LED_PAD_ALT_FUNC         PAD_MuxAlt0        /**</ LED pin alternate function. */
 
-#define LED_ON  1                                   /**</ LED on. */
-#define LED_OFF 0                                   /**</ LED off. */
+#define LED_ON  0                                   /**</ LED on. */
+#define LED_OFF 1                                   /**</ LED off. */
 
 /* Functions  ------------------------------------------------------------------*/
 
